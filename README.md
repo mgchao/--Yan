@@ -1,2 +1,2 @@
-# --Yan
-名为”衍“的生命游戏模拟程序。Yan,a Game of Life simulator.
+### 衍
+##### 这里提供了基于 C# 的 HashLife 的初步实现。
