@@ -29,7 +29,7 @@ namespace GameOfLife
         /// <summary>
         /// 存储着该域的下一次演化结果
         /// </summary>
-        protected Field NextGeneration;
+        private Field NextGeneration;
 
         /// <summary>
         /// 存储着 共享域
