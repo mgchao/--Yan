@@ -25,6 +25,11 @@ namespace GameOfLife
         private HashField(Field northeast, Field northwest, Field southwest, Field southeast) : base(northeast, northwest, southwest, southeast)
         {
         }
+        
+        /// <summary>
+        /// 存储着该域的下一次演化结果
+        /// </summary>
+        protected Field NextGeneration;
 
         /// <summary>
         /// 存储着 共享域
