@@ -42,12 +42,6 @@ namespace GameOfLife
         /// </summary>
         public bool IsAlive { get; protected set; }
 
-
-        /// <summary>
-        /// 存储着该域的下一次演化结果
-        /// </summary>
-        protected Field NextGeneration;
-
         /// <summary>
         /// 创建一个指定生命状态的细胞
         /// </summary>
